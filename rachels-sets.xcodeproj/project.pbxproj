@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4905BCCD181C392600783C2C /* NSString+RSExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4905BCCC181C392600783C2C /* NSString+RSExtensions.m */; };
+		492437AA18178F2000DCBB0B /* RSRoundRectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 492437A918178F2000DCBB0B /* RSRoundRectView.m */; };
+		493C49CA1819CBCA001C2EEF /* RSPipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 493C49C91819CBCA001C2EEF /* RSPipView.m */; };
+		493C49CD1819F1F1001C2EEF /* UIColor+RSExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 493C49CC1819F1F1001C2EEF /* UIColor+RSExtensions.m */; };
+		49528049181E387900980563 /* RSGameRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 49528048181E387900980563 /* RSGameRecord.m */; };
+		4954CBA61811AAE500B8BF63 /* RSModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4954CBA51811AAE500B8BF63 /* RSModel.m */; };
+		4954CBAA1811B1B600B8BF63 /* RSCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4954CBA91811B1B600B8BF63 /* RSCardViewController.m */; };
+		4954CBAD1811EAAC00B8BF63 /* RSGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4954CBAC1811EAAC00B8BF63 /* RSGameViewController.m */; };
+		4954CBB01811ED6100B8BF63 /* RSGameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4954CBAF1811ED6100B8BF63 /* RSGameView.m */; };
+		4954CBB31811F4F000B8BF63 /* RSMainMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4954CBB21811F4F000B8BF63 /* RSMainMenuView.m */; };
+		4954CBB61812015600B8BF63 /* RSPlayingStatusBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4954CBB51812015600B8BF63 /* RSPlayingStatusBarView.m */; };
+		496AC2D618135DDD001644E2 /* RSGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 496AC2D518135DDD001644E2 /* RSGeometry.m */; };
+		497D0C0418050A6200521C45 /* RSCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 497D0C0318050A6200521C45 /* RSCardView.m */; };
+		49814A5C1818DAFD0016A021 /* RSGameOverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49814A5B1818DAFD0016A021 /* RSGameOverView.m */; };
+		49B367471803BD86009EF2B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49B367461803BD86009EF2B3 /* Foundation.framework */; };
+		49B367491803BD86009EF2B3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49B367481803BD86009EF2B3 /* CoreGraphics.framework */; };
+		49B3674B1803BD86009EF2B3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49B3674A1803BD86009EF2B3 /* UIKit.framework */; };
+		49B367511803BD86009EF2B3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 49B3674F1803BD86009EF2B3 /* InfoPlist.strings */; };
+		49B367531803BD86009EF2B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B367521803BD86009EF2B3 /* main.m */; };
+		49B367571803BD86009EF2B3 /* RSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B367561803BD86009EF2B3 /* RSAppDelegate.m */; };
+		49B367591803BD86009EF2B3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49B367581803BD86009EF2B3 /* Images.xcassets */; };
+		49B367601803BD86009EF2B3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49B3675F1803BD86009EF2B3 /* XCTest.framework */; };
+		49B367611803BD86009EF2B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49B367461803BD86009EF2B3 /* Foundation.framework */; };
+		49B367621803BD86009EF2B3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49B3674A1803BD86009EF2B3 /* UIKit.framework */; };
+		49B3676A1803BD86009EF2B3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 49B367681803BD86009EF2B3 /* InfoPlist.strings */; };
+		49B3676C1803BD86009EF2B3 /* RachelsSetsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B3676B1803BD86009EF2B3 /* RachelsSetsTests.m */; };
+		49B367791803C05C009EF2B3 /* RSCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B367781803C05C009EF2B3 /* RSCard.m */; };
+		49B3677D1803C4E0009EF2B3 /* NSMutableArray+RSExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B3677C1803C4E0009EF2B3 /* NSMutableArray+RSExtensions.m */; };
+		49B367801803C620009EF2B3 /* NSNumber+RSExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B3677F1803C620009EF2B3 /* NSNumber+RSExtensions.m */; };
+		49B367831803CA15009EF2B3 /* RSGameBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B367821803CA15009EF2B3 /* RSGameBoard.m */; };
+		49B367861803D312009EF2B3 /* RSGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B367851803D312009EF2B3 /* RSGame.m */; };
+		49C84D65180CF8FC00219FDB /* RSGameBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C84D64180CF8FC00219FDB /* RSGameBoardViewController.m */; };
+		49EC1742180A6160002E563B /* RSGameBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EC1741180A6160002E563B /* RSGameBoardView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49B367631803BD86009EF2B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49B3673B1803BD86009EF2B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49B367421803BD86009EF2B3;
+			remoteInfo = RachelsSets;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4905BCCB181C392600783C2C /* NSString+RSExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+RSExtensions.h"; sourceTree = "<group>"; };
+		4905BCCC181C392600783C2C /* NSString+RSExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+RSExtensions.m"; sourceTree = "<group>"; };
+		492437A818178F2000DCBB0B /* RSRoundRectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSRoundRectView.h; sourceTree = "<group>"; };
+		492437A918178F2000DCBB0B /* RSRoundRectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSRoundRectView.m; sourceTree = "<group>"; };
+		493C49C81819CBCA001C2EEF /* RSPipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSPipView.h; sourceTree = "<group>"; };
+		493C49C91819CBCA001C2EEF /* RSPipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSPipView.m; sourceTree = "<group>"; };
+		493C49CB1819F1F1001C2EEF /* UIColor+RSExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RSExtensions.h"; sourceTree = "<group>"; };
+		493C49CC1819F1F1001C2EEF /* UIColor+RSExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RSExtensions.m"; sourceTree = "<group>"; };
+		49528047181E387900980563 /* RSGameRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSGameRecord.h; sourceTree = "<group>"; };
+		49528048181E387900980563 /* RSGameRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSGameRecord.m; sourceTree = "<group>"; };
+		4954CBA41811AAE500B8BF63 /* RSModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSModel.h; sourceTree = "<group>"; };
+		4954CBA51811AAE500B8BF63 /* RSModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSModel.m; sourceTree = "<group>"; };
+		4954CBA71811ABB400B8BF63 /* RSModel_Protected.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSModel_Protected.h; sourceTree = "<group>"; };
+		4954CBA81811B1B600B8BF63 /* RSCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSCardViewController.h; sourceTree = "<group>"; };
+		4954CBA91811B1B600B8BF63 /* RSCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSCardViewController.m; sourceTree = "<group>"; };
+		4954CBAB1811EAAC00B8BF63 /* RSGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSGameViewController.h; sourceTree = "<group>"; };
+		4954CBAC1811EAAC00B8BF63 /* RSGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSGameViewController.m; sourceTree = "<group>"; };
+		4954CBAE1811ED6100B8BF63 /* RSGameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSGameView.h; sourceTree = "<group>"; };
+		4954CBAF1811ED6100B8BF63 /* RSGameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSGameView.m; sourceTree = "<group>"; };
+		4954CBB11811F4F000B8BF63 /* RSMainMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSMainMenuView.h; sourceTree = "<group>"; };
+		4954CBB21811F4F000B8BF63 /* RSMainMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSMainMenuView.m; sourceTree = "<group>"; };
+		4954CBB41812015600B8BF63 /* RSPlayingStatusBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSPlayingStatusBarView.h; sourceTree = "<group>"; };
+		4954CBB51812015600B8BF63 /* RSPlayingStatusBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSPlayingStatusBarView.m; sourceTree = "<group>"; };
+		496AC2D418135DDD001644E2 /* RSGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSGeometry.h; sourceTree = "<group>"; };
+		496AC2D518135DDD001644E2 /* RSGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSGeometry.m; sourceTree = "<group>"; };
+		497D0C0218050A6200521C45 /* RSCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSCardView.h; sourceTree = "<group>"; };
+		497D0C0318050A6200521C45 /* RSCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSCardView.m; sourceTree = "<group>"; };
+		49814A5A1818DAFD0016A021 /* RSGameOverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSGameOverView.h; sourceTree = "<group>"; };
+		49814A5B1818DAFD0016A021 /* RSGameOverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSGameOverView.m; sourceTree = "<group>"; };
+		49B367431803BD86009EF2B3 /* rachels-sets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rachels-sets.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49B367461803BD86009EF2B3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		49B367481803BD86009EF2B3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		49B3674A1803BD86009EF2B3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		49B3674E1803BD86009EF2B3 /* rachels-sets-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "rachels-sets-Info.plist"; sourceTree = "<group>"; };
+		49B367501803BD86009EF2B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		49B367521803BD86009EF2B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		49B367541803BD86009EF2B3 /* rachels-sets-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "rachels-sets-Prefix.pch"; sourceTree = "<group>"; };
+		49B367551803BD86009EF2B3 /* RSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSAppDelegate.h; sourceTree = "<group>"; };
+		49B367561803BD86009EF2B3 /* RSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSAppDelegate.m; sourceTree = "<group>"; };
+		49B367581803BD86009EF2B3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		49B3675E1803BD86009EF2B3 /* rachels-setsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "rachels-setsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49B3675F1803BD86009EF2B3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		49B367671803BD86009EF2B3 /* rachels-setsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "rachels-setsTests-Info.plist"; sourceTree = "<group>"; };
+		49B367691803BD86009EF2B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		49B3676B1803BD86009EF2B3 /* RachelsSetsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RachelsSetsTests.m; sourceTree = "<group>"; };
+		49B367771803C05C009EF2B3 /* RSCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSCard.h; sourceTree = "<group>"; };
+		49B367781803C05C009EF2B3 /* RSCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSCard.m; sourceTree = "<group>"; };
+		49B3677B1803C4E0009EF2B3 /* NSMutableArray+RSExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+RSExtensions.h"; sourceTree = "<group>"; };
+		49B3677C1803C4E0009EF2B3 /* NSMutableArray+RSExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+RSExtensions.m"; sourceTree = "<group>"; };
+		49B3677E1803C620009EF2B3 /* NSNumber+RSExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+RSExtensions.h"; sourceTree = "<group>"; };
+		49B3677F1803C620009EF2B3 /* NSNumber+RSExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+RSExtensions.m"; sourceTree = "<group>"; };
+		49B367811803CA15009EF2B3 /* RSGameBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSGameBoard.h; sourceTree = "<group>"; };
+		49B367821803CA15009EF2B3 /* RSGameBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSGameBoard.m; sourceTree = "<group>"; };
+		49B367841803D312009EF2B3 /* RSGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSGame.h; sourceTree = "<group>"; };
+		49B367851803D312009EF2B3 /* RSGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSGame.m; sourceTree = "<group>"; };
+		49C84D63180CF8FC00219FDB /* RSGameBoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSGameBoardViewController.h; sourceTree = "<group>"; };
+		49C84D64180CF8FC00219FDB /* RSGameBoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSGameBoardViewController.m; sourceTree = "<group>"; };
+		49EC1740180A6160002E563B /* RSGameBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSGameBoardView.h; sourceTree = "<group>"; };
+		49EC1741180A6160002E563B /* RSGameBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSGameBoardView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49B367401803BD86009EF2B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49B367491803BD86009EF2B3 /* CoreGraphics.framework in Frameworks */,
+				49B3674B1803BD86009EF2B3 /* UIKit.framework in Frameworks */,
+				49B367471803BD86009EF2B3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49B3675B1803BD86009EF2B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49B367601803BD86009EF2B3 /* XCTest.framework in Frameworks */,
+				49B367621803BD86009EF2B3 /* UIKit.framework in Frameworks */,
+				49B367611803BD86009EF2B3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49B3673A1803BD86009EF2B3 = {
+			isa = PBXGroup;
+			children = (
+				49B3674C1803BD86009EF2B3 /* RachelsSets */,
+				49B367651803BD86009EF2B3 /* RachelsSetsTests */,
+				49B367451803BD86009EF2B3 /* Frameworks */,
+				49B367441803BD86009EF2B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49B367441803BD86009EF2B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49B367431803BD86009EF2B3 /* rachels-sets.app */,
+				49B3675E1803BD86009EF2B3 /* rachels-setsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49B367451803BD86009EF2B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49B367461803BD86009EF2B3 /* Foundation.framework */,
+				49B367481803BD86009EF2B3 /* CoreGraphics.framework */,
+				49B3674A1803BD86009EF2B3 /* UIKit.framework */,
+				49B3675F1803BD86009EF2B3 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		49B3674C1803BD86009EF2B3 /* RachelsSets */ = {
+			isa = PBXGroup;
+			children = (
+				49B367551803BD86009EF2B3 /* RSAppDelegate.h */,
+				49B367561803BD86009EF2B3 /* RSAppDelegate.m */,
+				49B367581803BD86009EF2B3 /* Images.xcassets */,
+				49C84D5F180CF88800219FDB /* Controllers */,
+				49B3677A1803C4AB009EF2B3 /* Extensions */,
+				49B367761803C02F009EF2B3 /* Models */,
+				49B3674D1803BD86009EF2B3 /* Supporting Files */,
+				49B367751803C006009EF2B3 /* Views */,
+			);
+			path = RachelsSets;
+			sourceTree = "<group>";
+		};
+		49B3674D1803BD86009EF2B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49B367521803BD86009EF2B3 /* main.m */,
+				49B367541803BD86009EF2B3 /* rachels-sets-Prefix.pch */,
+				49B3674E1803BD86009EF2B3 /* rachels-sets-Info.plist */,
+				49B3674F1803BD86009EF2B3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49B367651803BD86009EF2B3 /* RachelsSetsTests */ = {
+			isa = PBXGroup;
+			children = (
+				49B3676B1803BD86009EF2B3 /* RachelsSetsTests.m */,
+				49B367661803BD86009EF2B3 /* Supporting Files */,
+			);
+			path = RachelsSetsTests;
+			sourceTree = "<group>";
+		};
+		49B367661803BD86009EF2B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49B367671803BD86009EF2B3 /* rachels-setsTests-Info.plist */,
+				49B367681803BD86009EF2B3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49B367751803C006009EF2B3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				497D0C0218050A6200521C45 /* RSCardView.h */,
+				49EC1740180A6160002E563B /* RSGameBoardView.h */,
+				49814A5A1818DAFD0016A021 /* RSGameOverView.h */,
+				4954CBAE1811ED6100B8BF63 /* RSGameView.h */,
+				4954CBB11811F4F000B8BF63 /* RSMainMenuView.h */,
+				493C49C81819CBCA001C2EEF /* RSPipView.h */,
+				4954CBB41812015600B8BF63 /* RSPlayingStatusBarView.h */,
+				492437A818178F2000DCBB0B /* RSRoundRectView.h */,
+				497D0C0318050A6200521C45 /* RSCardView.m */,
+				49EC1741180A6160002E563B /* RSGameBoardView.m */,
+				49814A5B1818DAFD0016A021 /* RSGameOverView.m */,
+				4954CBAF1811ED6100B8BF63 /* RSGameView.m */,
+				4954CBB21811F4F000B8BF63 /* RSMainMenuView.m */,
+				493C49C91819CBCA001C2EEF /* RSPipView.m */,
+				4954CBB51812015600B8BF63 /* RSPlayingStatusBarView.m */,
+				492437A918178F2000DCBB0B /* RSRoundRectView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		49B367761803C02F009EF2B3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				49B367771803C05C009EF2B3 /* RSCard.h */,
+				49B367841803D312009EF2B3 /* RSGame.h */,
+				49B367811803CA15009EF2B3 /* RSGameBoard.h */,
+				49528047181E387900980563 /* RSGameRecord.h */,
+				4954CBA41811AAE500B8BF63 /* RSModel.h */,
+				4954CBA71811ABB400B8BF63 /* RSModel_Protected.h */,
+				49B367781803C05C009EF2B3 /* RSCard.m */,
+				49B367851803D312009EF2B3 /* RSGame.m */,
+				49B367821803CA15009EF2B3 /* RSGameBoard.m */,
+				49528048181E387900980563 /* RSGameRecord.m */,
+				4954CBA51811AAE500B8BF63 /* RSModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		49B3677A1803C4AB009EF2B3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				49B3677B1803C4E0009EF2B3 /* NSMutableArray+RSExtensions.h */,
+				49B3677E1803C620009EF2B3 /* NSNumber+RSExtensions.h */,
+				4905BCCB181C392600783C2C /* NSString+RSExtensions.h */,
+				496AC2D418135DDD001644E2 /* RSGeometry.h */,
+				493C49CB1819F1F1001C2EEF /* UIColor+RSExtensions.h */,
+				49B3677C1803C4E0009EF2B3 /* NSMutableArray+RSExtensions.m */,
+				49B3677F1803C620009EF2B3 /* NSNumber+RSExtensions.m */,
+				4905BCCC181C392600783C2C /* NSString+RSExtensions.m */,
+				496AC2D518135DDD001644E2 /* RSGeometry.m */,
+				493C49CC1819F1F1001C2EEF /* UIColor+RSExtensions.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		49C84D5F180CF88800219FDB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4954CBA81811B1B600B8BF63 /* RSCardViewController.h */,
+				49C84D63180CF8FC00219FDB /* RSGameBoardViewController.h */,
+				4954CBAB1811EAAC00B8BF63 /* RSGameViewController.h */,
+				4954CBA91811B1B600B8BF63 /* RSCardViewController.m */,
+				49C84D64180CF8FC00219FDB /* RSGameBoardViewController.m */,
+				4954CBAC1811EAAC00B8BF63 /* RSGameViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49B367421803BD86009EF2B3 /* rachels-sets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49B3676F1803BD86009EF2B3 /* Build configuration list for PBXNativeTarget "rachels-sets" */;
+			buildPhases = (
+				49B3673F1803BD86009EF2B3 /* Sources */,
+				49B367401803BD86009EF2B3 /* Frameworks */,
+				49B367411803BD86009EF2B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "rachels-sets";
+			productName = RachelsSets;
+			productReference = 49B367431803BD86009EF2B3 /* rachels-sets.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49B3675D1803BD86009EF2B3 /* rachels-setsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49B367721803BD86009EF2B3 /* Build configuration list for PBXNativeTarget "rachels-setsTests" */;
+			buildPhases = (
+				49B3675A1803BD86009EF2B3 /* Sources */,
+				49B3675B1803BD86009EF2B3 /* Frameworks */,
+				49B3675C1803BD86009EF2B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49B367641803BD86009EF2B3 /* PBXTargetDependency */,
+			);
+			name = "rachels-setsTests";
+			productName = RachelsSetsTests;
+			productReference = 49B3675E1803BD86009EF2B3 /* rachels-setsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49B3673B1803BD86009EF2B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RS;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Andrew Miner";
+				TargetAttributes = {
+					49B367421803BD86009EF2B3 = {
+						DevelopmentTeam = ZR6AR6SHG4;
+					};
+					49B3675D1803BD86009EF2B3 = {
+						TestTargetID = 49B367421803BD86009EF2B3;
+					};
+				};
+			};
+			buildConfigurationList = 49B3673E1803BD86009EF2B3 /* Build configuration list for PBXProject "rachels-sets" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 49B3673A1803BD86009EF2B3;
+			productRefGroup = 49B367441803BD86009EF2B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49B367421803BD86009EF2B3 /* rachels-sets */,
+				49B3675D1803BD86009EF2B3 /* rachels-setsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49B367411803BD86009EF2B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49B367511803BD86009EF2B3 /* InfoPlist.strings in Resources */,
+				49B367591803BD86009EF2B3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49B3675C1803BD86009EF2B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49B3676A1803BD86009EF2B3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49B3673F1803BD86009EF2B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49814A5C1818DAFD0016A021 /* RSGameOverView.m in Sources */,
+				4954CBB61812015600B8BF63 /* RSPlayingStatusBarView.m in Sources */,
+				4954CBB31811F4F000B8BF63 /* RSMainMenuView.m in Sources */,
+				49C84D65180CF8FC00219FDB /* RSGameBoardViewController.m in Sources */,
+				49B367531803BD86009EF2B3 /* main.m in Sources */,
+				497D0C0418050A6200521C45 /* RSCardView.m in Sources */,
+				49EC1742180A6160002E563B /* RSGameBoardView.m in Sources */,
+				493C49CA1819CBCA001C2EEF /* RSPipView.m in Sources */,
+				4905BCCD181C392600783C2C /* NSString+RSExtensions.m in Sources */,
+				4954CBA61811AAE500B8BF63 /* RSModel.m in Sources */,
+				49528049181E387900980563 /* RSGameRecord.m in Sources */,
+				493C49CD1819F1F1001C2EEF /* UIColor+RSExtensions.m in Sources */,
+				49B367791803C05C009EF2B3 /* RSCard.m in Sources */,
+				49B3677D1803C4E0009EF2B3 /* NSMutableArray+RSExtensions.m in Sources */,
+				496AC2D618135DDD001644E2 /* RSGeometry.m in Sources */,
+				4954CBB01811ED6100B8BF63 /* RSGameView.m in Sources */,
+				4954CBAA1811B1B600B8BF63 /* RSCardViewController.m in Sources */,
+				4954CBAD1811EAAC00B8BF63 /* RSGameViewController.m in Sources */,
+				49B367831803CA15009EF2B3 /* RSGameBoard.m in Sources */,
+				492437AA18178F2000DCBB0B /* RSRoundRectView.m in Sources */,
+				49B367861803D312009EF2B3 /* RSGame.m in Sources */,
+				49B367801803C620009EF2B3 /* NSNumber+RSExtensions.m in Sources */,
+				49B367571803BD86009EF2B3 /* RSAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49B3675A1803BD86009EF2B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49B3676C1803BD86009EF2B3 /* RachelsSetsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49B367641803BD86009EF2B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49B367421803BD86009EF2B3 /* rachels-sets */;
+			targetProxy = 49B367631803BD86009EF2B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49B3674F1803BD86009EF2B3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49B367501803BD86009EF2B3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		49B367681803BD86009EF2B3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49B367691803BD86009EF2B3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49B3676D1803BD86009EF2B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		49B3676E1803BD86009EF2B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49B367701803BD86009EF2B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RachelsSets/rachels-sets-Prefix.pch";
+				INFOPLIST_FILE = "RachelsSets/rachels-sets-Info.plist";
+				PRODUCT_NAME = "rachels-sets";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		49B367711803BD86009EF2B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RachelsSets/rachels-sets-Prefix.pch";
+				INFOPLIST_FILE = "RachelsSets/rachels-sets-Info.plist";
+				PRODUCT_NAME = "rachels-sets";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		49B367731803BD86009EF2B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RachelsSets.app/RachelsSets";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RachelsSets/RachelsSets-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RachelsSetsTests/rachels-setsTests-Info.plist";
+				PRODUCT_NAME = "rachels-setsTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		49B367741803BD86009EF2B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RachelsSets.app/RachelsSets";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RachelsSets/RachelsSets-Prefix.pch";
+				INFOPLIST_FILE = "RachelsSetsTests/rachels-setsTests-Info.plist";
+				PRODUCT_NAME = "rachels-setsTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49B3673E1803BD86009EF2B3 /* Build configuration list for PBXProject "rachels-sets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49B3676D1803BD86009EF2B3 /* Debug */,
+				49B3676E1803BD86009EF2B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49B3676F1803BD86009EF2B3 /* Build configuration list for PBXNativeTarget "rachels-sets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49B367701803BD86009EF2B3 /* Debug */,
+				49B367711803BD86009EF2B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49B367721803BD86009EF2B3 /* Build configuration list for PBXNativeTarget "rachels-setsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49B367731803BD86009EF2B3 /* Debug */,
+				49B367741803BD86009EF2B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49B3673B1803BD86009EF2B3 /* Project object */;
+}

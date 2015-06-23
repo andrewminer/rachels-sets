@@ -1,0 +1,22 @@
+//
+//  rachels-sets-Prefix.pch
+//  rachels-sets
+//
+//  Created by Andrew Miner on 10/7/13.
+//  Copyright (c) 2013 Andrew Miner. All rights reserved.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
+
+#define TESTING_MODE NO
+#define CARD_TOSS_DAMPING (0.75)
+#define CARD_TOSS_VELOCITY (1.0)
