@@ -14,8 +14,8 @@ CGRect CGRectFloor(CGRect rect) {
     return (CGRect) {
         floor(rect.origin.x),
         floor(rect.origin.y),
-        floor(rect.size.width),
-        floor(rect.size.height)
+        ceil(rect.size.width),
+        ceil(rect.size.height)
     };
 }
 

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4905BCCD181C392600783C2C /* NSString+RSExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4905BCCC181C392600783C2C /* NSString+RSExtensions.m */; };
+		490FC3C91DB9AC4700B10DBE /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 490FC3C81DB9AC4700B10DBE /* Launch Screen.storyboard */; };
 		492437AA18178F2000DCBB0B /* RSRoundRectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 492437A918178F2000DCBB0B /* RSRoundRectView.m */; };
 		493C49CA1819CBCA001C2EEF /* RSPipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 493C49C91819CBCA001C2EEF /* RSPipView.m */; };
 		493C49CD1819F1F1001C2EEF /* UIColor+RSExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 493C49CC1819F1F1001C2EEF /* UIColor+RSExtensions.m */; };
@@ -55,6 +56,7 @@
 /* Begin PBXFileReference section */
 		4905BCCB181C392600783C2C /* NSString+RSExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+RSExtensions.h"; sourceTree = "<group>"; };
 		4905BCCC181C392600783C2C /* NSString+RSExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+RSExtensions.m"; sourceTree = "<group>"; };
+		490FC3C81DB9AC4700B10DBE /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		492437A818178F2000DCBB0B /* RSRoundRectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSRoundRectView.h; sourceTree = "<group>"; };
 		492437A918178F2000DCBB0B /* RSRoundRectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSRoundRectView.m; sourceTree = "<group>"; };
 		493C49C81819CBCA001C2EEF /* RSPipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSPipView.h; sourceTree = "<group>"; };
@@ -186,10 +188,11 @@
 		49B3674D1803BD86009EF2B3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				49B367521803BD86009EF2B3 /* main.m */,
-				49B367541803BD86009EF2B3 /* rachels-sets-Prefix.pch */,
-				49B3674E1803BD86009EF2B3 /* rachels-sets-Info.plist */,
 				49B3674F1803BD86009EF2B3 /* InfoPlist.strings */,
+				49B367521803BD86009EF2B3 /* main.m */,
+				49B3674E1803BD86009EF2B3 /* rachels-sets-Info.plist */,
+				49B367541803BD86009EF2B3 /* rachels-sets-Prefix.pch */,
+				490FC3C81DB9AC4700B10DBE /* Launch Screen.storyboard */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -242,8 +245,8 @@
 				49B367841803D312009EF2B3 /* RSGame.h */,
 				49B367811803CA15009EF2B3 /* RSGameBoard.h */,
 				49528047181E387900980563 /* RSGameRecord.h */,
-				4954CBA41811AAE500B8BF63 /* RSModel.h */,
 				4954CBA71811ABB400B8BF63 /* RSModel_Protected.h */,
+				4954CBA41811AAE500B8BF63 /* RSModel.h */,
 				49B367781803C05C009EF2B3 /* RSCard.m */,
 				49B367851803D312009EF2B3 /* RSGame.m */,
 				49B367821803CA15009EF2B3 /* RSGameBoard.m */,
@@ -328,7 +331,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = RS;
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Andrew Miner";
 				TargetAttributes = {
 					49B367421803BD86009EF2B3 = {
@@ -362,6 +365,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				490FC3C91DB9AC4700B10DBE /* Launch Screen.storyboard in Resources */,
 				49B367511803BD86009EF2B3 /* InfoPlist.strings in Resources */,
 				49B367591803BD86009EF2B3 /* Images.xcassets in Resources */,
 			);
@@ -459,13 +463,19 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -478,7 +488,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
@@ -498,20 +508,25 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
@@ -522,12 +537,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RachelsSets/rachels-sets-Prefix.pch";
 				INFOPLIST_FILE = "RachelsSets/rachels-sets-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.minersoft.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "rachels-sets";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -539,12 +554,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RachelsSets/rachels-sets-Prefix.pch";
 				INFOPLIST_FILE = "RachelsSets/rachels-sets-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.minersoft.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "rachels-sets";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -568,6 +583,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "RachelsSetsTests/rachels-setsTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.minersoft.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "rachels-setsTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -586,6 +602,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RachelsSets/RachelsSets-Prefix.pch";
 				INFOPLIST_FILE = "RachelsSetsTests/rachels-setsTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.minersoft.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "rachels-setsTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;

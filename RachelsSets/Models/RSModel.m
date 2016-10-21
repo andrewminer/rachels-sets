@@ -17,10 +17,6 @@ NSString *RSModelChangedNotification = @"RSModelChangedNotification";
 
 @implementation RSModel
 
-- (void) dealloc {
-    [[NSNotificationCenter defaultCenter] removeObserver:nil name:nil object:self];
-}
-
 // Public Methods //////////////////////////////////////////////////////////////////////////////////////////////////////
 
 - (void) addObserver:(id<RSModelObserver>)observer {

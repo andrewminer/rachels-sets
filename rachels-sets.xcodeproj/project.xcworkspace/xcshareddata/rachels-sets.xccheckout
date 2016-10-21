@@ -10,31 +10,31 @@
 	<string>rachels-sets</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>B38BBCDA0EE79C5219BFA06964FFF6AFC3AA6F3C</key>
-		<string>github.com:andrewminer/personal.git</string>
+		<key>22A73E03CEAAEFCA210265A430F780C70B4C7831</key>
+		<string>github.com:andrewminer/rachels-sets.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>RachelsSets/rachels-sets.xcodeproj</string>
+	<string>rachels-sets.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>B38BBCDA0EE79C5219BFA06964FFF6AFC3AA6F3C</key>
-		<string>../../..</string>
+		<key>22A73E03CEAAEFCA210265A430F780C70B4C7831</key>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>github.com:andrewminer/personal.git</string>
+	<string>github.com:andrewminer/rachels-sets.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>B38BBCDA0EE79C5219BFA06964FFF6AFC3AA6F3C</string>
+	<string>22A73E03CEAAEFCA210265A430F780C70B4C7831</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>B38BBCDA0EE79C5219BFA06964FFF6AFC3AA6F3C</string>
+			<string>22A73E03CEAAEFCA210265A430F780C70B4C7831</string>
 			<key>IDESourceControlWCCName</key>
-			<string>personal</string>
+			<string>RachelsSets</string>
 		</dict>
 	</array>
 </dict>
